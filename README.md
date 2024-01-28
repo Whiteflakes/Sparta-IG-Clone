@@ -1,23 +1,7 @@
 # Sparta-IG-Clone
 
-Our readme is already present here.
+This Instagram clone is created with HTML, CSS & JS with the help from Sparta Code Camp. The project was built to demonstrate understanding of frontend development concepts and practices.
 
-Download: https://desktop.github.com/
+Fork this repo & create a pull request to commit and extend the framework.
 
-Uncommited change? It means that your change is not committed yet. 
-Git is not tracking it right now. 
-
-TO ensure that git is tracking it you commit your change. 
-
-
-
-Committing your change has two parts.
-1. First your commit in your local system.
-2. You push it to origin
-
-What is origin? Your hosted git repo. 
-
-To download my code: 
-You will do
-`git clone https://github.com/AbhinandanKainth/Sparta-IG-Clone.git`
 
