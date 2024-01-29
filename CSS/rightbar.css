@@ -1,0 +1,83 @@
+/* Generate the CSS for this right */
+
+.containerposts {
+    display: inline-block;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.posts {
+    width: 100%;
+}
+.posts>:first-child {
+    margin-left: 27%;
+}
+
+.rightBar {
+    display: block;
+    width: 250px;
+    float: right;
+}
+
+/* .rightBar>div {
+    display: ;
+} */
+
+.rightBarHeader {
+    padding: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightBarHeader span {
+    font-weight: bold;
+}
+
+.rightBarBody {
+    padding: 10px;
+}
+
+.rightBarBodyUser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rightBarBodyUser img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.rightBarBodyUserText {
+    flex: 1;
+}
+
+.rightBarBodyUserText span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.rightBarBodyUser a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+/* add a media query such that on width reaching 800px, the right bar should be hidden. */
+@media screen and (max-width: 800px) {
+    .rightBar {
+        display: none;
+    }
+}
